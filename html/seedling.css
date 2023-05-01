@@ -894,14 +894,20 @@ td {
 /* END CALENDAR */
 
 /* BEGIN SIGN UP */
-.checkbox-size {
-    width: 25px;
-    height: 25px;
+input[type=checkbox] {
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    padding: 10px;
 }
 
-.radio-size {
-    width: 20px;
-    height: 20px;
+input[type=radio] {
+    -ms-transform: scale(1.75); /* IE */
+    -moz-transform: scale(1.75); /* FF */
+    -webkit-transform: scale(1.75); /* Safari and Chrome */
+    -o-transform: scale(1.75); /* Opera */
+    padding: 10px;
 }
 /* END SIGN UP */
 
@@ -1027,16 +1033,32 @@ td {
         display: contents;
     }
     
+    .module_odd {
+        padding: 10px;
+    }
+    
     .module_odd table {
         width: 100%;
+    }
+    
+    .module_even {
+        padding: 10px;
     }
     
     .module_even table {
         width: 100%;
     }
     
+    .module_full {
+        padding: 10px;
+    }
+    
     .module_full table {
          width: 100%;
+    }
+    
+    .width_override table {
+        width: 85%;
     }
     
     .module_break {
