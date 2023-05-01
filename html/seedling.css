@@ -725,7 +725,7 @@ td {
     border-bottom: 1px solid var(--stcdarkgreen);
     border-left: 1px solid var(--stcdarkgreen);
     padding: 0 0.5rem 0 0.5rem;
-    min-height: 11rem;
+    min-height: 13rem;
 }
 
 .calendar .days li .date {
@@ -742,6 +742,15 @@ td {
     text-overflow: ellipsis;
     border-radius: 4rem;
     margin-bottom: 4px;
+}
+
+.calendar .days li .event:hover{
+    overflow: visible; 
+    white-space: normal;
+    height: auto;
+    border-radius: 1rem;
+    line-height: 22px;
+    padding: 7px;
 }
 
 .calendar .days li .event.span-2 {
