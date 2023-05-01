@@ -209,11 +209,11 @@
 
                                 <h4>
                                 Student First and Last Name&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                                <input type="text" id="student-name" name="student-name" size="40"><br>
+                                <input type="text" id="student-name" name="student-name" tabindex="1"><br>
                                 Current Age of Child&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                                <input type="text" id="student-age" name="student-age" size="40"><br>
+                                <input type="number" id="student-age" name="student-age" tabindex="2"><br>
                                 Child's Date of Birth&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                                <input type="text" id="student-dob" name="student-dob" size="40">
+                                <input type="date" id="student-dob" name="student-dob" tabindex="3">
                                 </h4>
 
                             </div>
@@ -222,13 +222,13 @@
 
                                 <h4>
                                 Child Lives With:<br>
-                                <input type="radio" id="both" name="lives-with" value="Both Parents">&nbsp;&nbsp;&nbsp;<label for="both">Both Parents</label>&nbsp;&nbsp;&nbsp;
-                                <input type="radio" id="mother" name="lives-with" value="Mother Only">&nbsp;&nbsp;&nbsp;<label for="mother">Mother Only</label><br>
-                                <input type="radio" id="father" name="lives-with" value="Father Only">&nbsp;&nbsp;&nbsp;<label for="father">Father Only</label>&nbsp;&nbsp;&nbsp;
-                                <input type="radio" id="joint" name="lives-with" value="Joint Custody">&nbsp;&nbsp;&nbsp;<label for="joint">Joint Custody</label><br><br>
+                                <input type="radio" id="both" name="lives-with" value="Both Parents" tabindex="4">&nbsp;&nbsp;&nbsp;<label for="both">Both Parents</label>&nbsp;&nbsp;&nbsp;
+                                <input type="radio" id="mother" name="lives-with" value="Mother Only" tabindex="4">&nbsp;&nbsp;&nbsp;<label for="mother">Mother Only</label><br>
+                                <input type="radio" id="father" name="lives-with" value="Father Only" tabindex="4">&nbsp;&nbsp;&nbsp;<label for="father">Father Only</label>&nbsp;&nbsp;&nbsp;
+                                <input type="radio" id="joint" name="lives-with" value="Joint Custody" tabindex="4">&nbsp;&nbsp;&nbsp;<label for="joint">Joint Custody</label><br><br>
                                 Child's Identifying Gender:<br>
-                                <input type="radio" id="male" name="gender" value="Male">&nbsp;&nbsp;&nbsp;<label for="male">Male</label>&nbsp;&nbsp;&nbsp;
-                                <input type="radio" id="female" name="gender" value="Female">&nbsp;&nbsp;&nbsp;<label for="female">Female</label>
+                                <input type="radio" id="male" name="gender" value="Male" tabindex="5">&nbsp;&nbsp;&nbsp;<label for="male">Male</label>&nbsp;&nbsp;&nbsp;
+                                <input type="radio" id="female" name="gender" value="Female" tabindex="5">&nbsp;&nbsp;&nbsp;<label for="female">Female</label>
                                 </h4>
 
                             </div>
@@ -249,11 +249,11 @@
 
                                 <h4>
                                 Contact Parent/Guardian Full Name&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                                <input type="text" id="contact-name" name="contact-name" size="40"><br>
+                                <input type="text" id="contact-name" name="contact-name" tabindex="6"><br>
                                 Best Contact Email&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                                <input type="text" id="contact-email" name="contact-email" size="40"><br>
+                                <input type="email" id="contact-email" name="contact-email" tabindex="7"><br>
                                 Best Contact Phone&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                                <input type="text" id="contact-phone" name="contact-phone" size="40">
+                                <input type="number" id="contact-phone" name="contact-phone" tabindex="8">
                                 </h4>
 
                             </div>
@@ -262,11 +262,11 @@
 
                                 <h4>
                                 Additional Parent/Guardian Full Name<br>
-                                <input type="text" id="contact-name-add" name="contact-name-add" size="40"><br>
+                                <input type="text" id="contact-name-add" name="contact-name-add" tabindex="9"><br>
                                 Additional Contact Email<br>
-                                <input type="text" id="contact-email-add" name="contact-email-add" size="40"><br>
+                                <input type="email" id="contact-email-add" name="contact-email-add" tabindex="10"><br>
                                 Additional Contact Phone<br>
-                                <input type="text" id="contact-phone-add" name="contact-phone-add" size="40">
+                                <input type="number" id="contact-phone-add" name="contact-phone-add" tabindex="11">
                                 </h4>
 
                             </div>
@@ -293,7 +293,8 @@
 
                                 <h4>
                                 Does your child have any medical conditions (physical, mental, or emotional) that might limit participation in any activities at the Seedling Theatre Company?&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br><br>
-                                <input type="radio" id="no" name="medical" value="No">&nbsp;&nbsp;&nbsp;<label for="no">No</label>&nbsp;&nbsp;&nbsp;<input type="radio" id="yes" name="medical" value="Yes">&nbsp;&nbsp;&nbsp;<label for="yes">Yes</label>
+                                <input type="radio" id="no" name="medical" value="No" tabindex="12">&nbsp;&nbsp;&nbsp;<label for="no">No</label>&nbsp;&nbsp;&nbsp;
+                                <input type="radio" id="yes" name="medical" value="Yes" tabindex="12">&nbsp;&nbsp;&nbsp;<label for="yes">Yes</label>
                                 </h4>
 
                             </div>
@@ -302,9 +303,11 @@
 
                                 <h4>
                                 Does your child have any allergies?&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                                <input type="radio" id="no" name="allergies" value="No">&nbsp;&nbsp;&nbsp;<label for="no">No</label>&nbsp;&nbsp;&nbsp;<input type="radio" id="yes" name="allergies" value="Yes">&nbsp;&nbsp;&nbsp;<label for="yes">Yes</label><br><br>
+                                <input type="radio" id="no" name="allergies" value="No" tabindex="13">&nbsp;&nbsp;&nbsp;<label for="no">No</label>&nbsp;&nbsp;&nbsp;
+                                <input type="radio" id="yes" name="allergies" value="Yes" tabindex="13">&nbsp;&nbsp;&nbsp;<label for="yes">Yes</label><br><br>
                                 Is your child currently taking any prescription medications?&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                                <input type="radio" id="no" name="medications" value="No">&nbsp;&nbsp;&nbsp;<label for="no">No</label>&nbsp;&nbsp;&nbsp;<input type="radio" id="yes" name="medications" value="Yes">&nbsp;&nbsp;&nbsp;<label for="yes">Yes</label>
+                                <input type="radio" id="no" name="medications" value="No" tabindex="14">&nbsp;&nbsp;&nbsp;<label for="no">No</label>&nbsp;&nbsp;&nbsp;
+                                <input type="radio" id="yes" name="medications" value="Yes" tabindex="14">&nbsp;&nbsp;&nbsp;<label for="yes">Yes</label>
                                 </h4>
 
                             </div>
@@ -325,7 +328,7 @@
 
                                 <h4>
                                 If you answered "Yes" to any question above, please provide additional details:<br>
-                                <textarea id="medical-details" name="medical-details" rows="4" cols="40"></textarea>
+                                <textarea id="medical-details" name="medical-details" tabindex="15"></textarea>
                                 </h4>
 
                             </div>
@@ -334,7 +337,7 @@
 
                                 <h4>
                                 Is there any other information you think we should know about your child?<br>
-                                <textarea id="other-info" name="other-info" rows="4" cols="40"></textarea>
+                                <textarea id="other-info" name="other-info" tabindex="16"></textarea>
                                 </h4>
 
                             </div>
@@ -361,13 +364,13 @@
 
                                 <h4>
                                 Other Authorized Person for Pickup&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                                <input type="text" id="other-person1" name="other-person1" size="40"><br>
+                                <input type="text" id="other-person1" name="other-person1" tabindex="17"><br>
                                 Other Authorized Person #2 for Pickup<br>
-                                <input type="text" id="other-person2" name="other-person2" size="40"><br>
+                                <input type="text" id="other-person2" name="other-person2" tabindex="19"><br>
                                 Other Authorized Person #3 for Pickup<br>
-                                <input type="text" id="other-person3" name="other-person3" size="40"><br>
+                                <input type="text" id="other-person3" name="other-person3" tabindex="21"><br>
                                 Other Authorized Person #4 for Pickup<br>
-                                <input type="text" id="other-person4" name="other-person4" size="40">
+                                <input type="text" id="other-person4" name="other-person4" tabindex="23">
                                 </h4>
 
                             </div>
@@ -376,13 +379,13 @@
 
                                 <h4>
                                 Contact's Phone&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                                <input type="text" id="other-phone1" name="other-phone1" size="40"><br>
+                                <input type="number" id="other-phone1" name="other-phone1" tabindex="18"><br>
                                 Contact #2 Phone<br>
-                                <input type="text" id="other-phone2" name="other-phone2" size="40"><br>
+                                <input type="number" id="other-phone2" name="other-phone2" tabindex="20"><br>
                                 Contact #3 Phone<br>
-                                <input type="text" id="other-phone3" name="other-phone3" size="40"><br>
+                                <input type="number" id="other-phone3" name="other-phone3" tabindex="22"><br>
                                 Contact #4 Phone<br>
-                                <input type="text" id="other-phone4" name="other-phone4" size="40">
+                                <input type="number" id="other-phone4" name="other-phone4" tabindex="24">
                                 </h4>
 
                             </div>
@@ -425,7 +428,7 @@
                             </div>
 
                             <div class="col-6 d-flex justify-content-start align-items-center">
-                                <input type="radio" id="yes" name="permission" value="Yes">&nbsp;&nbsp;&nbsp;<label for="yes"><h4>Yes - I agree</h4></label>
+                                <input type="radio" id="yes" name="permission" value="Yes" tabindex="25">&nbsp;&nbsp;&nbsp;<label for="yes"><h4>Yes - I agree</h4></label>
                             </div>
 
                             <div class="col-3 d-flex justify-content-center align-items-center">
@@ -442,7 +445,7 @@
                             </div>
 
                             <div class="col-6 d-flex justify-content-start align-items-baseline">
-                                <input type="radio" id="no" name="permission" value="No">&nbsp;&nbsp;&nbsp;<label for="no"><h4>No - I do not give permission for my child's image to appear in any print or online promotional materials for Seedling Theatre Company, LLC. I understand that this excludes my child from any Movie Making classes or camps.</h4></label>
+                                <input type="radio" id="no" name="permission" value="No" tabindex="25">&nbsp;&nbsp;&nbsp;<label for="no"><h4>No - I do not give permission for my child's image to appear in any print or online promotional materials for Seedling Theatre Company, LLC. I understand that this excludes my child from any Movie Making classes or camps.</h4></label>
                             </div>
 
                             <div class="col-3 d-flex justify-content-center align-items-baseline">
@@ -459,7 +462,7 @@
                             </div>
 
                             <div class="col-6 d-flex justify-content-start align-items-baseline">
-                                <input type="radio" id="exception" name="permission" value="Exception">&nbsp;&nbsp;&nbsp;<label for="exception"><h4>Exception - I approve <em>ONLY</em> the inclusion of my child's image in licensed video recordings of end-of-semester performances.</h4></label>
+                                <input type="radio" id="exception" name="permission" value="Exception" tabindex="25">&nbsp;&nbsp;&nbsp;<label for="exception"><h4>Exception - I approve <em>ONLY</em> the inclusion of my child's image in licensed video recordings of end-of-semester performances.</h4></label>
                             </div>
 
                             <div class="col-3 d-flex justify-content-center align-items-baseline">
@@ -481,11 +484,11 @@
                             </div>
                             
                             <div class="col-5 d-flex justify-content-start align-items-baseline p-3">
-                                <input type="checkbox" name="accurate">&nbsp;&nbsp;&nbsp;<label for="accurate"><h4>By checking this box, I declare that the information provided above is <b>accurate and complete</b>&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"></h4></label>
+                                <input type="checkbox" name="accurate" tabindex="26">&nbsp;&nbsp;&nbsp;<label for="accurate"><h4>By checking this box, I declare that the information provided above is <b>accurate and complete</b>&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"></h4></label>
                             </div>
 
                             <div class="col-5 d-flex justify-content-start align-items-baseline p-3">
-                                <input type="checkbox" name="payment">&nbsp;&nbsp;&nbsp;<label for="payment"><h4>By checking this box, I declare that I have read and understand the <b>Seedling Payment and Attendance Policy</b>&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br><br><a href="../docs/Seedling-Payment-Attendance-Policy.pdf" target="_blank">Review Policy</a></h4></label>
+                                <input type="checkbox" name="payment" tabindex="27">&nbsp;&nbsp;&nbsp;<label for="payment"><h4>By checking this box, I declare that I have read and understand the <b>Seedling Payment and Attendance Policy</b>&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br><br><a href="../docs/Seedling-Payment-Attendance-Policy.pdf" target="_blank">Review Policy</a></h4></label>
                             </div>
                             
                             <div class="col-1 d-flex justify-content-start align-items-center p-3">
@@ -501,11 +504,11 @@
                             </div>
                             
                             <div class="col-5 d-flex justify-content-start align-items-baseline p-3">
-                                <input type="checkbox" name="conduct">&nbsp;&nbsp;&nbsp;<label for="conduct"><h4>By checking this box, I declare that I have read and discussed with my child the <b>Seedling Code of Conduct</b> and agree to abide by its terms&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br><br><a href="../docs/Seedling-Code-of-Conduct.pdf" target="_blank">Review Code of Conduct</a></h4></label>
+                                <input type="checkbox" name="conduct" tabindex="28">&nbsp;&nbsp;&nbsp;<label for="conduct"><h4>By checking this box, I declare that I have read and discussed with my child the <b>Seedling Code of Conduct</b> and agree to abide by its terms&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br><br><a href="../docs/Seedling-Code-of-Conduct.pdf" target="_blank">Review Code of Conduct</a></h4></label>
                             </div>
 
                             <div class="col-5 d-flex justify-content-start align-items-baseline p-3">
-                                <input type="checkbox" name="safety">&nbsp;&nbsp;&nbsp;<label for="safety"><h4>By checking this box, I declare that I have read and discussed with my child the <b>Seedling Safety Policy</b> and agree to abide by its terms&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br><br><a href="../docs/Seedling-Safety-Policy.pdf" target="_blank">Review Policy</a></h4></label>
+                                <input type="checkbox" name="safety" tabindex="29">&nbsp;&nbsp;&nbsp;<label for="safety"><h4>By checking this box, I declare that I have read and discussed with my child the <b>Seedling Safety Policy</b> and agree to abide by its terms&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br><br><a href="../docs/Seedling-Safety-Policy.pdf" target="_blank">Review Policy</a></h4></label>
                             </div>
                             
                             <div class="col-1 d-flex justify-content-start align-items-center p-3">
@@ -564,7 +567,7 @@
                     
                 <!----- NEXT STEP ----->
                 <div class="col-12 d-flex justify-content-center align-items-center p-1">
-                    <button type="button" class="btn btn-primary btn-sm" onclick="window.location.href='../html/signup3.html'"><h5>Previous Step</h5></button>&nbsp;&nbsp;<button type="button" class="btn btn-primary btn-sm" onclick="window.location.href='../html/signup5.html'"><h5>Enroll</h5></button><br><br><br>
+                    <button type="button" class="btn btn-primary btn-sm" onclick="window.location.href='../html/signup3.html'"><h5>Previous Step</h5></button>&nbsp;&nbsp;<button type="button" class="btn btn-primary btn-sm" onclick="window.location.href='../html/signup5.html'" tabindex="30"><h5>Enroll</h5></button><br><br><br>
                 </div>
                 
                 <div class="module_separator header_nav row d-flex justify-content-end align-items-center">
@@ -611,11 +614,11 @@
 
                         <h4>
                         Student First and Last Name&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                        <input type="text" id="student-name" name="student-name" size="30"><br>
+                        <input type="text" id="student-name" name="student-name"><br>
                         Current Age of Child&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                        <input type="text" id="student-age" name="student-age" size="30"><br>
+                        <input type="number" id="student-age" name="student-age"><br>
                         Child's Date of Birth&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                        <input type="text" id="student-dob" name="student-dob" size="30">
+                        <input type="date" id="student-dob" name="student-dob">
                         </h4>
 
                     </div>
@@ -639,11 +642,11 @@
 
                         <h4>
                         Contact Parent/Guardian<br>Full Name&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                        <input type="text" id="contact-name" name="contact-name" size="30"><br>
+                        <input type="text" id="contact-name" name="contact-name"><br>
                         Best Contact Email&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                        <input type="text" id="contact-email" name="contact-email" size="30"><br>
+                        <input type="email" id="contact-email" name="contact-email"><br>
                         Best Contact Phone&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                        <input type="text" id="contact-phone" name="contact-phone" size="30">
+                        <input type="number" id="contact-phone" name="contact-phone">
                         </h4>
 
                     </div>
@@ -652,11 +655,11 @@
 
                         <h4>
                         Additional Parent/Guardian<br>Full Name<br>
-                        <input type="text" id="contact-name-add" name="contact-name-add" size="30"><br>
+                        <input type="text" id="contact-name-add" name="contact-name-add"><br>
                         Additional Contact Email<br>
-                        <input type="text" id="contact-email-add" name="contact-email-add" size="30"><br>
+                        <input type="email" id="contact-email-add" name="contact-email-add"><br>
                         Additional Contact Phone<br>
-                        <input type="text" id="contact-phone-add" name="contact-phone-add" size="30">
+                        <input type="number" id="contact-phone-add" name="contact-phone-add">
                         </h4>
 
                     </div>
@@ -694,7 +697,7 @@
 
                         <h4>
                         If you answered "Yes" to any question above, please provide additional details:<br>
-                        <textarea id="medical-details" name="medical-details" rows="4" cols="30"></textarea>
+                        <textarea id="medical-details" name="medical-details"></textarea>
                         </h4>
 
                     </div>
@@ -703,7 +706,7 @@
 
                         <h4>
                         Is there any other information you think we should know about your child?<br>
-                        <textarea id="other-info" name="other-info" rows="4" cols="30"></textarea>
+                        <textarea id="other-info" name="other-info"></textarea>
                         </h4>
 
                     </div>
@@ -718,24 +721,24 @@
 
                         <h4>
                         Other Authorized Person&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                        <input type="text" id="other-person1" name="other-person1" size="30"><br>
+                        <input type="text" id="other-person1" name="other-person1"><br>
                         Contact's Phone&nbsp;&nbsp;<img src=../images/asterisk.svg width="20" height="20"><br>
-                        <input type="text" id="other-phone1" name="other-phone1" size="30"><br><br>
+                        <input type="number" id="other-phone1" name="other-phone1"><br><br>
                         
                         Other Authorized Person #2<br>
-                        <input type="text" id="other-person2" name="other-person2" size="30"><br>
+                        <input type="text" id="other-person2" name="other-person2"><br>
                         Contact #2 Phone<br>
-                        <input type="text" id="other-phone2" name="other-phone2" size="30"><br><br>
+                        <input type="number" id="other-phone2" name="other-phone2"><br><br>
                         
                         Other Authorized Person #3<br>
-                        <input type="text" id="other-person3" name="other-person3" size="30"><br>
+                        <input type="text" id="other-person3" name="other-person3"><br>
                         Contact #3 Phone<br>
-                        <input type="text" id="other-phone3" name="other-phone3" size="30"><br><br>
+                        <input type="number" id="other-phone3" name="other-phone3"><br><br>
                         
                         Other Authorized Person #4<br>
-                        <input type="text" id="other-person4" name="other-person4" size="30">
+                        <input type="text" id="other-person4" name="other-person4">
                         Contact #4 Phone<br>
-                        <input type="text" id="other-phone4" name="other-phone4" size="30">
+                        <input type="number" id="other-phone4" name="other-phone4">
                         </h4>
 
                     </div>

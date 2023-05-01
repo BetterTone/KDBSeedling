@@ -909,6 +909,110 @@ input[type=radio] {
     -o-transform: scale(1.75); /* Opera */
     padding: 10px;
 }
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    /*margin: 8px 0;*/
+    box-sizing: border-box;
+    border: 2px solid var(--stcdarkgreen);
+    border-radius: 10px;
+    background-color: var(--stclightgreen);
+    /*color: white;*/
+}
+
+input[type=text]:focus {
+    background-color: var(--stclightpurple);
+    border: 3px solid black;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 10px 10px;
+    /*margin: 8px 0;*/
+    box-sizing: border-box;
+    border: 2px solid var(--stcdarkgreen);
+    border-radius: 10px;
+    background-color: var(--stclightgreen);
+    /*color: white;*/
+}
+
+input[type=number]:focus {
+    background-color: var(--stclightpurple);
+    border: 3px solid black;
+}
+
+/* Get rid of number field arrows - Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Get rid of number field arrows - Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=date] {
+    width: 100%;
+    padding: 10px 10px;
+    /*margin: 8px 0;*/
+    box-sizing: border-box;
+    border: 2px solid var(--stcdarkgreen);
+    border-radius: 10px;
+    background-color: var(--stclightgreen);
+    /*color: white;*/
+}
+
+input[type=date]:focus {
+    background-color: var(--stclightpurple);
+    border: 3px solid black;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 10px 10px;
+    /*margin: 8px 0;*/
+    box-sizing: border-box;
+    border: 2px solid var(--stcdarkgreen);
+    border-radius: 10px;
+    background-color: var(--stclightgreen);
+    /*color: white;*/
+}
+
+input[type=email]:focus {
+    background-color: var(--stclightpurple);
+    border: 3px solid black;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid var(--stcdarkgreen);
+    border-radius: 10px;
+    background-color: var(--stclightgreen);
+    resize: none;
+}
+
+textarea:focus {
+    background-color: var(--stclightpurple);
+    border: 3px solid black;
+}
+
+select {
+    width: 100%;
+    padding: 10px 10px;
+    border: 2px solid var(--stcdarkgreen);
+    border-radius: 10px;
+    background-color: var(--stclightgreen);
+}
+
+select:focus {
+    background-color: var(--stclightpurple);
+    border: 3px solid black;
+}
 /* END SIGN UP */
 
 /* BEGIN CONTACT FORM */
@@ -922,19 +1026,6 @@ input[type=radio] {
 
 .contact-form td {
     padding: 0px 0px 5px 0px;
-}
-
-.contact-form input {
-    width: 100%;
-}
-
-.contact-form select {
-    width: 100%;
-    padding: 5px 0px 5px 0px;
-}
-
-.contact-form textarea {
-    width: 100%;
 }
 /* END CONTACT FORM */
 
