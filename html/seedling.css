@@ -1132,12 +1132,12 @@ select:focus {
 
 @media screen and (max-width: 480px) {
     .navbar-brand {
-        width: 300px;
+        width: 275px;
         background: url(../images/header_seedling_banner_logo_mobile2.png) left center no-repeat;
     }
     
-    .page_intro_text_mobile {
+    /*.page_intro_text_mobile {
         width: 350px;
-    }
+    }*/
 }
 /* END DISPLAY SWITCHING */
