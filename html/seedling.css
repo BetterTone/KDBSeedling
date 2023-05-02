@@ -266,7 +266,7 @@ td {
     padding: 0px 15px 0px 15px;    
 }
 
-.header_nav a:link {
+.headerx_nav a:link {
     color: var(--stclightgreen);
     font-weight: normal;
     text-decoration: none;
@@ -479,7 +479,7 @@ td {
 	margin-top: -200px;
 	width: 400px;
 	height: 400px;
-	background: rgba(0, 0, 0, 0.35);
+	/*background: rgba(0, 0, 0, 0.35);*/
     border-radius: 60px 60px 60px 60px;
 	padding: 20px;
 }
@@ -490,7 +490,7 @@ td {
 	top: 50%;
 	left: 50%;
 	margin-left: -200px;
-	margin-top: -200px;
+	margin-top: -190px;
 	width: 400px;
 	height: 400px;
 	padding: 20px;
