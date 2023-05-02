@@ -1132,7 +1132,7 @@ select:focus {
 
 @media screen and (max-width: 480px) {
     .navbar-brand {
-        width: 275px;
+        width: 250px;
         background: url(../images/header_seedling_banner_logo_mobile2.png) left center no-repeat;
     }
     
