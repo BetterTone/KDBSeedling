@@ -167,60 +167,36 @@
            
             <div class="header_separator row"></div>
             
-<!-- ******** Page Intro Desktop ******** -->
-            
-            <div class="page_intro row">
-              
-                <div class="page_intro_randomizer">
-                   
-                    <div class="page_intro_button">
-                       
-                        <table>
-                           
-                            <tr>
-                                <td class="td_center zoom">
-                                    <a href="#mermaid"><img src=../images/camps_little_mermaid_button.png class="img-fluid rounded-sm border-secondary" alt="Musical Theatre Classes" width="200" height="148"></a>
-                                </td>
-                                <td class="td_center zoom">
-                                    <a href="#spongebob"><img src=../images/camps_spongebob_button.png class="img-fluid rounded-sm border-secondary" alt="Acting Classes" width="200" height="148"></a>
-                                </td>
-                                <td class="td_center zoom">
-                                    <a href="#midsummer"><img src=../images/camps_midsummer_button.png class="img-fluid rounded-sm border-secondary" alt="Vocal Performance Classes" width="200" height="148"></a>
-                                </td>
-                                <td class="td_center zoom">
-                                    <a href="#improv"><img src=../images/camps_improv_button.png class="img-fluid rounded-sm border-secondary" alt="Vocal Performance Classes" width="200" height="148"></a>
-                                </td>
-                            </tr>
-                            
-                        </table>
-                        
-                    </div>
-                    
-                </div>
-
-                <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-                
-                <script type="text/javascript">
-                    function pic() {
-                        var bgm= ['../images/intro_slide1.jpg','../images/intro_slide2.jpg','../images/intro_slide3.jpg','../images/intro_slide5.jpg','../images/intro_slide6.jpg','../images/intro_slide7.jpg','../images/intro_slide9.jpg','../images/intro_slide10.jpg','../images/intro_slide11.jpg'];
-                    $('.page_intro_randomizer').css({
-                        'background':'url('+bgm[Math.floor(Math.random()* bgm.length)]+') no-repeat',
-                        'background-position':'center',
-                        'background-size':'cover'
-                    });
-                    }
-                    pic();
-                </script>
-                
-            </div>
-            
-            <div class="anchor"><a id="mermaid"></a></div>
-            
-            <div class="module_separator header_nav row d-flex justify-content-end align-items-center"></div>
-            
 <!-- ******** Module 1 Desktop ******** -->
             
             <div class="module_odd row">
+              
+                <!----- TITLE -----> 
+                <div class="col-12 d-flex justify-content-center align-items-center p-1">
+                    <h1>Summer Camps</h1>
+                </div>
+                
+                <!----- INTRO ----->
+                <div class="col-12 d-flex justify-content-center align-items-center p-1">
+                
+                    <div class="col-3 d-flex justify-content-center align-items-center p-3">
+                        &nbsp;
+                    </div>
+
+                    <div class="col-6 d-flex justify-content-center align-items-center p-3">
+                        Summer Camps vary, but generally include at least one musical production, full plays, vocal performance, movie making, camps for ages 4-6, set design and costume design, beginning acting, and much more. Explore below for specific camp information.
+                    </div>
+
+                    <div class="col-3 d-flex justify-content-center align-items-center p-3">
+                        &nbsp;
+                    </div>
+                
+                </div>
+                
+                <!----- BREAK ----->
+                <div class="col-12 d-flex justify-content-end align-items-center p-1">
+                    <hr class="module_break">
+                </div>
                
                 <div class="module_left col-6 d-flex justify-content-end align-items-center">
                    
@@ -291,12 +267,12 @@
                         <tr>
                             <!-- LEFT -->
                             <td class="td_center bold" colspan="2">
-                                <h2>CAST CAMP</h2>
+                                <h2>CAST CAMP #1</h2>
                             </td>
                             
                             <!-- RIGHT -->
                             <td class="td_center bold" colspan="2">
-                                <h2>CAST CAMP</h2>
+                                <h2>CAST CAMP #2</h2>
                             </td>
                         </tr>
                         
@@ -315,6 +291,18 @@
                         <tr>
                             <!-- LEFT -->
                             <td class="td_center" colspan="2">
+                                <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/signup.html'"><h5>Sign Up Now</h5></button>
+                            </td>
+                            
+                            <!-- RIGHT -->
+                            <td class="td_center" colspan="2">
+                                <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/signup.html'"><h5>Sign Up Now</h5></button>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <!-- LEFT -->
+                            <td class="td_center" colspan="2">
                                 <div class="col d-flex justify-content-end align-items-center">
                                     <hr class="module_break">
                                 </div>
@@ -331,12 +319,12 @@
                         <tr>
                             <!-- LEFT -->
                             <td class="td_center bold" colspan="2">
-                                CAMP SCHEDULE
+                                CAST CAMP #1<br>SCHEDULE
                             </td>
                             
                             <!-- RIGHT -->
                             <td class="td_center bold" colspan="2">
-                                CAMP SCHEDULE
+                                CAST CAMP #2<br>SCHEDULE
                             </td>
                         </tr>
                         
@@ -377,12 +365,12 @@
                         <tr>
                             <!-- LEFT -->
                             <td class="td_center bold" colspan="2">
-                                SHOW TIMES
+                                CAST CAMP #1<br>SHOW TIMES
                             </td>
                             
                             <!-- RIGHT -->
                             <td class="td_center bold" colspan="2">
-                                SHOW TIMES
+                                CAST CAMP #2<br>SHOW TIMES
                             </td>
                         </tr>
                         
@@ -400,7 +388,7 @@
                                             <h6>2:00pm</h6>
                                         </td>
                                         <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
+                                            <button type="button" class="btn btn-warning btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h8>Only 5 Left</h8></button>
                                         </td>
                                     </tr>
                                     
@@ -493,7 +481,7 @@
                                             <h6>6:00pm</h6>
                                         </td>
                                         <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
+                                            <button type="button" class="btn btn-warning btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h8>Only 2 Left</h8></button>
                                         </td>
                                     </tr>
                                     
@@ -515,12 +503,12 @@
                         <tr>
                             <!-- LEFT -->
                             <td class="td_center bold" colspan="2">
-                                <h2>ENSEMBLE CAMP</h2>
+                                <h2>ENSEMBLE CAMP #1</h2>
                             </td>
                             
                             <!-- RIGHT -->
                             <td class="td_center bold" colspan="2">
-                                <h2>ENSEMBLE CAMP</h2>
+                                <h2>ENSEMBLE CAMP #2</h2>
                             </td>
                         </tr>
                         
@@ -539,6 +527,18 @@
                         <tr>
                             <!-- LEFT -->
                             <td class="td_center" colspan="2">
+                                <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/signup.html'"><h5>Sign Up Now</h5></button>
+                            </td>
+                            
+                            <!-- RIGHT -->
+                            <td class="td_center" colspan="2">
+                                <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/signup.html'"><h5>Sign Up Now</h5></button>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <!-- LEFT -->
+                            <td class="td_center" colspan="2">
                                 <div class="col d-flex justify-content-end align-items-center">
                                     <hr class="module_break">
                                 </div>
@@ -555,12 +555,12 @@
                         <tr>
                             <!-- LEFT -->
                             <td class="td_center bold" colspan="2">
-                                CAMP SCHEDULE
+                                ENSEMBLE CAMP #1<br>SCHEDULE
                             </td>
                             
                             <!-- RIGHT -->
                             <td class="td_center bold" colspan="2">
-                                CAMP SCHEDULE
+                                ENSEMBLE CAMP #2<br>SCHEDULE
                             </td>
                         </tr>
                         
@@ -601,12 +601,12 @@
                         <tr>
                             <!-- LEFT -->
                             <td class="td_center bold" colspan="2">
-                                SHOW TIMES
+                                ENSEMBLE CAMP #1<br>SHOW TIMES
                             </td>
                             
                             <!-- RIGHT -->
                             <td class="td_center bold" colspan="2">
-                                SHOW TIMES
+                                ENSEMBLE CAMP #2<br>SHOW TIMES
                             </td>
                         </tr>
                         
@@ -624,7 +624,7 @@
                                             <h6>2:00pm</h6>
                                         </td>
                                         <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
+                                            <button type="button" class="btn btn-warning btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h8>Only 4 Left</h8></button>
                                         </td>
                                     </tr>
                                     
@@ -859,64 +859,24 @@
            
             <div class="header_separator_mobile row"></div>
             
-<!-- ******** Page Intro Mobile ******** -->
-            
-            <div class="page_intro row">
-              
-                <div class="page_intro_randomizer">
-                   
-                    <div class="page_intro_button_mobile">
-                        
-                        <table>
-                           
-                            <tr>
-                                <td class="td_center">
-                                    <a href="../html/classes.html#theatre"><img src=../images/classes_theatre2_button_mobile.png class="img-fluid rounded-sm border-secondary" alt="Musical Theatre Classes" width="350" height="100"></a>
-                                </td>
-                            </tr>
-                              
-                            <tr>   
-                                <td class="td_center">
-                                    <a href="../html/classes.html#acting"><img src=../images/classes_acting_button_mobile.png class="img-fluid rounded-sm border-secondary" alt="Acting Classes" width="350" height="100"></a>
-                                </td>
-                            </tr>
-                               
-                            <tr>   
-                                <td class="td_center">
-                                    <a href="../html/classes.html#vocal"><img src=../images/classes_vocal_button_mobile.png class="img-fluid rounded-sm border-secondary" alt="Vocal Performance Classes" width="350" height="100"></a>
-                                </td>
-                            </tr>
-                            
-                            
-                        </table>
-                        
-                    </div>
-                    
-                </div>
-
-                <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-                
-                <script type="text/javascript">
-                    function pic() {
-                        var bgm= ['../images/intro_slide1.jpg','../images/intro_slide2.jpg','../images/intro_slide3.jpg','../images/intro_slide5.jpg','../images/intro_slide6.jpg','../images/intro_slide7.jpg','../images/intro_slide9.jpg','../images/intro_slide10.jpg','../images/intro_slide11.jpg'];
-                    $('.page_intro_randomizer').css({
-                        'background':'url('+bgm[Math.floor(Math.random()* bgm.length)]+') no-repeat',
-                        'background-position':'center',
-                        'background-size':'cover'
-                    });
-                    }
-                    pic();
-                </script>
-                
-            </div>
-            
-            <div class="anchor"><a id="mermaid-mobile"></a></div>
-            
-            <div class="module_separator header_nav row d-flex justify-content-end align-items-center"></div>
-            
 <!-- ******** Module 1 Mobile ******** -->
             
             <div class="module_odd row">
+              
+                <!----- TITLE -----> 
+                <div class="col-12 d-flex justify-content-center align-items-center p-1">
+                    <h1>Summer Camps</h1>
+                </div>
+                
+                <!----- INTRO ----->
+                <div class="col-12 d-flex justify-content-center align-items-center p-3">
+                    Summer Camps vary, but generally include at least one musical production, full plays, vocal performance, movie making, camps for ages 4-6, set design and costume design, beginning acting, and much more. Explore below for specific camp information.
+                </div>
+                
+                <!----- BREAK ----->
+                <div class="col-12 d-flex justify-content-end align-items-center p-1">
+                    <hr class="module_break">
+                </div>
                
                 <div class="col-12 d-flex justify-content-center align-items-center">
                    
@@ -974,29 +934,153 @@
                             </td>
                         </tr>
                         
-                        <!-- CAST CAMP -->
-                        <tr>
-                            <!-- LEFT -->
-                            <td class="td_center bold">
-                                <h2>CAST CAMP</h2>
-                            </td>
-                        </tr>
-                            
-                            <!-- RIGHT -->
+                        <!-- CAST CAMP 1 -->
                         <tr>
                             <td class="td_center bold">
-                                <h2>CAST CAMP</h2>
+                                <h2>CAST CAMP #1</h2>
                             </td>
                         </tr>
-                        
+                           
                         <tr>
-                            <!-- LEFT -->
                             <td class="td_center">
                                 <h3>Juniors (Age 8-11)<br>June 19-24 | $575<br>Instructors: Sabrina &amp; Kalena</h3>
                             </td>
                         </tr>
+                          
+                        <tr>
+                            <td class="td_center">
+                                <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/signup.html'"><h5>Sign Up Now</h5></button>
+                            </td>
+                        </tr>
+                           
+                        <tr>
+                            <td class="td_center">
+                                <div class="col d-flex justify-content-end align-items-center">
+                                    <hr class="module_break">
+                                </div>
+                            </td>
+                        </tr>
+                           
+                        <tr>
+                            <td class="td_center bold">
+                                CAST CAMP #1<br>SCHEDULE
+                            </td>
+                        </tr>
+                           
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 19-21, 2023<br>Mon-Wed 9:00am-3:00pm</h6>
+                            </td>
+                        </tr>
+                           
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 22, 2023<br>Thu 9:00am-4:00pm</h6>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 23, 2023<br>Fri 9:00am-8:00pm</h6>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 24, 2023<br>Sat 12:00pm-8:00pm</h6>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
+                                <div class="col d-flex justify-content-end align-items-center">
+                                    <hr class="module_break">
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center bold">
+                                CAST CAMP #1<br>SHOW TIMES
+                            </td>
+                        </tr>
+                                   
+                        <tr>
+                           
+                            <td class="td_center">
+                                
+                                <table style="width: 85%">
+                                    
+                                    <tr>
+                                        <td class="td_center">
+                                            <h6>June 23, 2023 | 2:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-warning btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h8>Only 5 Left</h8></button>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="td_center">
+                                            <h6>June 23, 2023 | 6:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase Tickets</h7></button>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="td_center">
+                                            <h6>June 24, 2023 | 2:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase Tickets</h7></button>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="td_center">
+                                            <h6>June 24, 2023 | 6:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-danger btn-sm rounded" disabled onclick="window.location.href='../html/tickets.html'"><h7>Sold Out</h7></button>
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                                
+                            </td>
                             
-                            <!-- RIGHT -->
+                        </tr>
+                                   
+                        <tr>
+                            <td class="td_center">
+                                <div class="col-12 d-flex justify-content-end align-items-center">
+                                    <hr class="module_break">
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- END CAST CAMP 1 -->
+                            
+                        <!-- CAST CAMP 2 -->
+                        <tr>
+                            <td class="td_center bold">
+                                <h2>CAST CAMP #2</h2>
+                            </td>
+                        </tr>
+                        
                         <tr>
                             <td class="td_center">
                                 <h3>Teens (Age 11-18)<br>June 26-July 1 | $650<br>Instructors: Kalena &amp; Devyn</h3>
@@ -1004,15 +1088,51 @@
                         </tr>
                         
                         <tr>
-                            <!-- LEFT -->
+                            <td class="td_center">
+                                <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/signup.html'"><h5>Sign Up Now</h5></button>
+                            </td>
+                        </tr>
+                        
+                        <tr>
                             <td class="td_center">
                                 <div class="col d-flex justify-content-end align-items-center">
                                     <hr class="module_break">
                                 </div>
                             </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center bold">
+                                CAST CAMP #2<br>SCHEDULE
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 26-28, 2023<br>Mon-Wed 9:00am-4:00pm</h6>
+                            </td>
+                        </tr>
+                           
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 29, 2023<br>Thu 9:00am-5:00pm</h6>
+                            </td>
+                        </tr>
+                           
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 30, 2023<br>Fri 9:00am-8:00pm</h6>
+                            </td>
+                        </tr>
+                           
+                        <tr>
+                            <td class="td_center">
+                                <h6>July 1, 2023<br>Sat 12:00pm-8:00pm</h6>
+                            </td>
+                        </tr>
                             
-                            <!-- RIGHT -->
-                            <td class="td_center"=>
+                        <tr>
+                            <td class="td_center">
                                 <div class="col d-flex justify-content-end align-items-center">
                                     <hr class="module_break">
                                 </div>
@@ -1020,171 +1140,62 @@
                         </tr>
                         
                         <tr>
-                            <!-- LEFT -->
-                            <td class="td_center bold" colspan="2">
-                                CAMP SCHEDULE
-                            </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_center bold" colspan="2">
-                                CAMP SCHEDULE
+                            <td class="td_center bold">
+                                CAST CAMP #2<br>SHOW TIMES
                             </td>
                         </tr>
                         
                         <tr>
-                            <!-- LEFT -->
-                            <td class="td_right">
-                                <h6>June 19-21, 2023<br>June 22, 2023<br>June 23, 2023<br>June 24, 2023</h6>
-                            </td>
-                            <td class="td_left">
-                                <h6>Mon-Wed 9:00am-3:00pm<br>Thu 9:00am-4:00pm<br>Fri 9:00am-8:00pm<br>Sat 12:00pm-8:00pm</h6>
-                            </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_right">
-                                <h6>June 26-28, 2023<br>June 29, 2023<br>June 30, 2023<br>July 1, 2023</h6>
-                            </td>
-                            <td class="td_left">
-                                <h6>Mon-Wed 9:00am-4:00pm<br>Thu 9:00am-5:00pm<br>Fri 9:00am-8:00pm<br>Sat 12:00pm-8:00pm</h6>
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <!-- LEFT -->
-                            <td class="td_center" colspan="2">
-                                <div class="col d-flex justify-content-end align-items-center">
-                                    <hr class="module_break">
-                                </div>
-                            </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_center" colspan="2">
-                                <div class="col d-flex justify-content-end align-items-center">
-                                    <hr class="module_break">
-                                </div>
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <!-- LEFT -->
-                            <td class="td_center bold" colspan="2">
-                                SHOW TIMES
-                            </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_center bold" colspan="2">
-                                SHOW TIMES
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <!-- LEFT -->
-                            <td class="td_left" colspan="2">
+                           
+                            <td class="td_center">
                                 
-                                <table>
+                                <table style="width: 85%">
                                     
                                     <tr>
-                                        <td class="td_right">
-                                            <h6>June 23, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>2:00pm</h6>
-                                        </td>
                                         <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
+                                            <h6>June 30, 2023 | 2:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase Tickets</h7></button>
                                         </td>
                                     </tr>
                                     
                                     <tr>
-                                        <td class="td_right">
-                                            <h6>June 23, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>6:00pm</h6>
-                                        </td>
                                         <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
+                                            <h6>June 30, 2023 | 6:00pm</h6>
                                         </td>
                                     </tr>
-                                    
+                                       
                                     <tr>
-                                        <td class="td_right">
-                                            <h6>June 24, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>2:00pm</h6>
-                                        </td>
-                                        <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
-                                        </td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td class="td_right">
-                                            <h6>June 24, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>6:00pm</h6>
-                                        </td>
-                                        <td class="td_center">
-                                            <button type="button" class="btn btn-danger btn-sm rounded" disabled onclick="window.location.href='../html/tickets.html'"><h7>Sold Out</h7></button>
-                                        </td>
-                                    </tr>
-                                    
-                                </table>
-                                
-                            </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_left" colspan="2">
-                                
-                                <table>
-                                    
-                                    <tr>
-                                        <td class="td_right">
-                                            <h6>June 30, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>2:00pm</h6>
-                                        </td>
-                                        <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
-                                        </td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td class="td_right">
-                                            <h6>June 30, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>6:00pm</h6>
-                                        </td>
                                         <td class="td_center">
                                             <button type="button" class="btn btn-danger btn-sm rounded" disabled onclick="window.location.href='../html/tickets.html'"><h7>Sold Out</h7></button>
                                         </td>
                                     </tr>
                                     
                                     <tr>
-                                        <td class="td_right">
-                                            <h6>July 1, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>2:00pm</h6>
-                                        </td>
                                         <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
+                                            <h6>July 1, 2023 | 2:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase Tickets</h7></button>
                                         </td>
                                     </tr>
                                     
                                     <tr>
-                                        <td class="td_right">
-                                            <h6>July 1, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>6:00pm</h6>
-                                        </td>
                                         <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
+                                            <h6>July 1, 2023 | 6:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-warning btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h8>Only 2 Left</h8></button>
                                         </td>
                                     </tr>
                                     
@@ -1195,94 +1206,169 @@
                         </tr>
                         
                         <tr>
-                            <td class="td_center" colspan="4">
+                            <td class="td_center">
                                 <div class="col-12 d-flex justify-content-end align-items-center">
                                     <hr class="module_break">
                                 </div>
                             </td>
                         </tr>
                         
-                        <!-- ENSEMBLE CAMP -->
+                        <!-- END CAST CAMP 2 -->
+                        
+                        <!-- ENSEMBLE CAMP 1 -->
                         <tr>
-                            <!-- LEFT -->
-                            <td class="td_center bold" colspan="2">
-                                <h2>ENSEMBLE CAMP</h2>
+                            <td class="td_center bold">
+                                <h2>ENSEMBLE CAMP #1</h2>
                             </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_center bold" colspan="2">
-                                <h2>ENSEMBLE CAMP</h2>
+                        </tr>
+                          
+                        <tr>
+                            <td class="td_center">
+                                <h3>Juniors (Age 7-8)<br>June 19-24 | $275<br>Instructors: Sabrina &amp; Kalena</h3>
+                            </td>
+                        </tr>
+                         
+                        <tr>
+                            <td class="td_center">
+                                <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/signup.html'"><h5>Sign Up Now</h5></button>
+                            </td>
+                        </tr>
+                          
+                        <tr>
+                            <td class="td_center">
+                                <div class="col d-flex justify-content-end align-items-center">
+                                    <hr class="module_break">
+                                </div>
                             </td>
                         </tr>
                         
                         <tr>
-                            <!-- LEFT -->
-                            <td class="td_center" colspan="2">
-                                <h3>Juniors (Age 7-8)<br>June 19-24 | $275<br>Instructors: Sabrina &amp; Kalena</h3>
+                            <td class="td_center bold">
+                                ENSEMBLE CAMP #1<br>SCHEDULE
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 19-21, 2023<br>Mon-Wed 2:00pm-4:00pm</h6>
+                            </td>
+                        </tr>
+                           
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 22, 2023<br>Thu 12:00pm-4:00pm<br></h6>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 23-24, 2023<br>Fri-Sat 1:00pm-8:00pm</h6>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
+                                <div class="col d-flex justify-content-end align-items-center">
+                                    <hr class="module_break">
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center bold">
+                                ENSEMBLE CAMP #1<br>SHOW TIMES
+                            </td>
+                        </tr>
+                                
+                        <tr>
+                            <td class="td_center">
+                                
+                                <table style="width: 85%">
+                                    
+                                    <tr>
+                                        <td class="td_center">
+                                            <h6>June 23, 2023 | 2:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-warning btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h8>Only 4 Left</h8></button>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="td_center">
+                                            <h6>June 23, 2023 | 6:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase Tickets</h7></button>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="td_center">
+                                            <h6>June 24, 2023 | 2:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase Tickets</h7></button>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="td_center">
+                                            <h6>June 24, 2023 | 6:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-danger btn-sm rounded" disabled onclick="window.location.href='../html/tickets.html'"><h7>Sold Out</h7></button>
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                                
                             </td>
                             
-                            <!-- RIGHT -->
-                            <td class="td_center" colspan="2">
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
+                                <div class="col d-flex justify-content-end align-items-center">
+                                    <hr class="module_break">
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- END ENSEMBLE CAMP #1 -->
+                        
+                        <!-- ENSEMBLE CAMP 2 -->
+                        <tr>
+                            <td class="td_center bold">
+                                <h2>ENSEMBLE CAMP #2</h2>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
                                 <h3>Teens (Age 10-12)<br>June 26-July 1 | $275<br>Instructors: Kalena &amp; Devyn</h3>
                             </td>
                         </tr>
                         
                         <tr>
-                            <!-- LEFT -->
-                            <td class="td_center" colspan="2">
-                                <div class="col d-flex justify-content-end align-items-center">
-                                    <hr class="module_break">
-                                </div>
-                            </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_center" colspan="2">
-                                <div class="col d-flex justify-content-end align-items-center">
-                                    <hr class="module_break">
-                                </div>
+                            <td class="td_center">
+                                <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/signup.html'"><h5>Sign Up Now</h5></button>
                             </td>
                         </tr>
                         
                         <tr>
-                            <!-- LEFT -->
-                            <td class="td_center bold" colspan="2">
-                                CAMP SCHEDULE
-                            </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_center bold" colspan="2">
-                                CAMP SCHEDULE
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <!-- LEFT -->
-                            <td class="td_right">
-                                <h6>June 19-21, 2023<br>June 22, 2023<br>June 23-24, 2023</h6>
-                            </td>
-                            <td class="td_left">
-                                <h6>Mon-Wed 2:00pm-4:00pm<br>Thu 12:00pm-4:00pm<br>Fri-Sat 1:00pm-8:00pm</h6>
-                            </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_right">
-                                <h6>June 26-28, 2023<br>June 29, 2023<br>June 30, 2023<br>July 1, 2023</h6>
-                            </td>
-                            <td class="td_left">
-                                <h6>Mon-Wed 3:00pm-5:00pm<br>Thu 12:00pm-5:00pm<br>Fri 9:00am-8:00pm<br>Sat 12:00pm-8:00pm</h6>
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <!-- LEFT -->
-                            <td class="td_center" colspan="2">
-                                <div class="col d-flex justify-content-end align-items-center">
-                                    <hr class="module_break">
-                                </div>
-                            </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_center" colspan="2">
+                            <td class="td_center">
                                 <div class="col d-flex justify-content-end align-items-center">
                                     <hr class="module_break">
                                 </div>
@@ -1290,125 +1376,100 @@
                         </tr>
                         
                         <tr>
-                            <!-- LEFT -->
-                            <td class="td_center bold" colspan="2">
-                                SHOW TIMES
-                            </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_center bold" colspan="2">
-                                SHOW TIMES
+                            <td class="td_center bold">
+                                ENSEMBLE CAMP #2<br>SCHEDULE
                             </td>
                         </tr>
                         
                         <tr>
-                            <!-- LEFT -->
-                            <td class="td_left" colspan="2">
+                            <td class="td_center">
+                                <h6>June 26-28, 2023<br>Mon-Wed 3:00pm-5:00pm</h6>
+                            </td>
+                        </tr>
+                           
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 29, 2023<br>Thu 12:00pm-5:00pm</h6>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
+                                <h6>June 30, 2023<br>Fri 9:00am-8:00pm</h6>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
+                                <h6>July 1, 2023<br>Sat 12:00pm-8:00pm</h6>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center">
+                                <div class="col d-flex justify-content-end align-items-center">
+                                    <hr class="module_break">
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="td_center bold">
+                                ENSEMBLE CAMP #2<br>SHOW TIMES
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            
+                            <td class="td_center">
                                 
-                                <table>
+                                <table style="width: 85%">
                                     
                                     <tr>
-                                        <td class="td_right">
-                                            <h6>June 23, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>2:00pm</h6>
-                                        </td>
                                         <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
+                                            <h6>June 30, 2023 | 2:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase Tickets</h7></button>
                                         </td>
                                     </tr>
                                     
                                     <tr>
-                                        <td class="td_right">
-                                            <h6>June 23, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>6:00pm</h6>
-                                        </td>
                                         <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
+                                            <h6>June 30, 2023 | 6:00pm</h6>
                                         </td>
                                     </tr>
-                                    
+                                       
                                     <tr>
-                                        <td class="td_right">
-                                            <h6>June 24, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>2:00pm</h6>
-                                        </td>
-                                        <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
-                                        </td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td class="td_right">
-                                            <h6>June 24, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>6:00pm</h6>
-                                        </td>
-                                        <td class="td_center">
-                                            <button type="button" class="btn btn-danger btn-sm rounded" disabled onclick="window.location.href='../html/tickets.html'"><h7>Sold Out</h7></button>
-                                        </td>
-                                    </tr>
-                                    
-                                </table>
-                                
-                            </td>
-                            
-                            <!-- RIGHT -->
-                            <td class="td_left" colspan="2">
-                                
-                                <table>
-                                    
-                                    <tr>
-                                        <td class="td_right">
-                                            <h6>June 30, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>2:00pm</h6>
-                                        </td>
-                                        <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
-                                        </td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td class="td_right">
-                                            <h6>June 30, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>6:00pm</h6>
-                                        </td>
                                         <td class="td_center">
                                             <button type="button" class="btn btn-danger btn-sm rounded" disabled onclick="window.location.href='../html/tickets.html'"><h7>Sold Out</h7></button>
                                         </td>
                                     </tr>
                                     
                                     <tr>
-                                        <td class="td_right">
-                                            <h6>July 1, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>2:00pm</h6>
-                                        </td>
                                         <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
+                                            <h6>July 1, 2023 | 2:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase Tickets</h7></button>
                                         </td>
                                     </tr>
                                     
                                     <tr>
-                                        <td class="td_right">
-                                            <h6>July 1, 2023</h6>
-                                        </td>
-                                        <td class="td_left">
-                                            <h6>6:00pm</h6>
-                                        </td>
                                         <td class="td_center">
-                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase</h7></button>
+                                            <h6>July 1, 2023 | 6:00pm</h6>
+                                        </td>
+                                    </tr>
+                                       
+                                    <tr>
+                                        <td class="td_center">
+                                            <button type="button" class="btn btn-primary btn-sm rounded" onclick="window.location.href='../html/tickets.html'"><h7>Purchase Tickets</h7></button>
                                         </td>
                                     </tr>
                                     
@@ -1417,6 +1478,7 @@
                             </td>
                             
                         </tr>
+                        <!-- END ENSEMBLE CAMP #2 -->
                         
                         <tr>
                             <td></td>
@@ -1425,8 +1487,10 @@
                     </table>
                     
                 </div>
-            
+                
             </div>
+            
+            <div><br></div>
             
             <div class="anchor"><a id="spongebob-mobile"></a></div>
             
@@ -1436,9 +1500,15 @@
             
             <div class="module_even row">
                
-                <div class="module_left col-6 d-flex justify-content-end align-items-center">
+                <div class="col-12 d-flex justify-content-end align-items-center">
                     
                     <table>
+                    
+                        <tr>
+                            <td class="td_center">
+                                <img src=../images/camps_spongebob.png class="img-fluid rounded-lg border-primary" alt="The Spongebob Musical" width="563" height="415">
+                            </td>
+                        </tr>
                     
                         <tr>
                             <td class="td_left">
@@ -1456,86 +1526,76 @@
                     
                 </div>
                 
-                <div class="module_right col-6 d-flex justify-content-start align-items-center">
-                  
-                    <table>
-                       
+            </div>
+                
+            <!-- BEGIN CAMP INFO -->
+            <div class="module_full row">
+                
+                <div class="col-12 d-flex justify-content-start align-items-center">
+
+                    <table style="width: 85%">
+
                         <tr>
                             <td class="td_center">
-                                <img src=../images/camps_spongebob.png class="img-fluid rounded-lg border-primary" alt="The Spongebob Musical" width="563" height="415">
+                                <h2>JULY 10-21<br>Cost: $395</h2>
                             </td>
                         </tr>
-                        
+
+                        <tr>
+                            <td class="td_center bold">
+                                Full Broadway Version<br>8 Performances<br>July 14, 15, &amp; 20-22
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_center italic">
+                                NOTE: Admission to this camp<br>is AUDITION ONLY
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_center">
+                                <button type="button" class="btn btn-primary btn-sm" onclick="window.location.href='#'"><h5>More Information</h5></button>
+                            </td>
+                        </tr>
+
                     </table>
+                
+                </div>
+
+            </div>
+            <!-- END CAMP INFO -->
                    
-                </div>
-                
-                <div class="module_left col-6 d-flex justify-content-end align-items-center">
+            <div class="module_even row">
                     
-                    <!-- BEGIN CAMP INFO -->
-                    <div class="module_full row_shows">
+                <div class="col-12 d-flex justify-content-end align-items-center">
 
-                        <table>
-
-                            <tr>
-                                <td class="td_center">
-                                    <h2>JULY 10-21<br>Cost: $395</h2>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td class="td_center bold">
-                                    Full Broadway Version<br>8 Performances<br>July 14, 15, &amp; 20-22
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td class="td_center italic">
-                                    NOTE: Admission to this camp<br>is AUDITION ONLY
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td class="td_center">
-                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.location.href='#'"><h5>More Information</h5></button>
-                                </td>
-                            </tr>
-
-                        </table>
-
-                    </div>
-                    <!-- END CAMP INFO -->
-                    
-                </div>
-                
-                <div class="module_right col-6 d-flex justify-content-start align-items-center">
-                  
                     <table>
-                       
+
                         <tr>
                             <td class="td_left">
                                 Video auditions from youth ages 9 to 18 years old will be accepted April 1-16. Live call backs will be April 21 and 22. 
                             </td>
                         </tr>
-                        
+
                         <tr>
                             <td class="td_left">
-                                Registration to be paid AFTER the audidtion process has ended and the show has been cast.
+                                Registration to be paid AFTER the audition process has ended and the show has been cast.
                             </td>
                         </tr>
-                        
+
                         <tr>
                             <td class="td_center">
-                                <a href="https://www.youtube.com/watch?v=6wINt2yEPDg" target="_blank">WATCH A CLIP FROM THE BROADWAY CAST</a>
+                                <a href="https://www.youtube.com/watch?v=6wINt2yEPDg" target="_blank">WATCH A CLIP FROM<br>THE BROADWAY CAST</a>
                             </td>
                         </tr>
-                        
+
                     </table>
-                   
+
                 </div>
-                
+                  
             </div>
-            
+                   
             <div class="anchor"><a id="midsummer"></a></div>
             
             <div class="module_separator header_nav row d-flex justify-content-end align-items-center">
