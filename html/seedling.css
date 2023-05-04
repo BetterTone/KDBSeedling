@@ -549,6 +549,12 @@ td {
     font-family: 'Questrial', sans-serif;
 }
 
+.module_full h6 {
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+}
+
 .row_shows {
     width: 80%;
     padding: 0;
@@ -1109,10 +1115,6 @@ select:focus {
     
     .module_full table {
          width: 100%;
-    }
-    
-    .width_override table {
-        width: 85%;
     }
     
     .module_break {
