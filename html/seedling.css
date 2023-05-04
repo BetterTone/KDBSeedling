@@ -266,7 +266,7 @@ td {
     padding: 0px 15px 0px 15px;    
 }
 
-.headerx_nav a:link {
+.header_nav a:link {
     color: var(--stclightgreen);
     font-weight: normal;
     text-decoration: none;
@@ -479,7 +479,7 @@ td {
 	margin-top: -200px;
 	width: 400px;
 	height: 400px;
-	/*background: rgba(0, 0, 0, 0.35);*/
+	background: rgba(0, 0, 0, 0.35);
     border-radius: 60px 60px 60px 60px;
 	padding: 20px;
 }
@@ -943,6 +943,20 @@ input[type=email] {
 }
 
 input[type=email]:focus {
+    background-color: var(--stclightpurple);
+    border: 3px solid black;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid var(--stcdarkgreen);
+    border-radius: 10px;
+    background-color: var(--stclightgreen);
+}
+
+input[type=password]:focus {
     background-color: var(--stclightpurple);
     border: 3px solid black;
 }
